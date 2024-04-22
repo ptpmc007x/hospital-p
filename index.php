@@ -41,9 +41,7 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
 
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <meta name="theme-color" content="#563d7c" />
 
 
@@ -68,38 +66,32 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405333895_736872355153679_4013414099186887279_n.jpg"
-                        class="img-responsive" />
+                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405333895_736872355153679_4013414099186887279_n.jpg" class="img-responsive" />
                     <div class="carousel-caption">
                         <div class="container">
-                            <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 1 มาวางที่นี่ -->
+
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/2023120702.png"
-                        class="img-responsive" />
+                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/2023120702.png" class="img-responsive" />
                     <div class="carousel-caption">
                         <div class="container">
-                            <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 2 มาวางที่นี่ -->
+
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405166521_736872388487009_4880090658364807048_n.jpg"
-                        class="img-responsive" />
+                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405166521_736872388487009_4880090658364807048_n.jpg" class="img-responsive" />
                     <div class="carousel-caption">
                         <div class="container">
-                            <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 3 มาวางที่นี่ -->
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405204503_736872325153682_2880091393100128885_n.jpg"
-                        class="img-responsive" />
+                    <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405204503_736872325153682_2880091393100128885_n.jpg" class="img-responsive" />
                     <div class="carousel-caption">
                         <div class="container">
-                            <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 3 มาวางที่นี่ -->
                         </div>
                     </div>
                 </div>
