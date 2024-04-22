@@ -340,9 +340,50 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
         </nav>
     </header>
 
+    <img src="https://placehold.co/1536x600" class="img-fluid" alt="...">
+    <br>
     <main>
+        <div class="container">
+            <h5>รวมโครงการและงบประมาณตามแผนยุทธศาสตร์โรงพยาบาลสมเด็จพระยุพราช</h5>
 
+            <ul>
+                <li>ยุทธศาสตร์ที่ ๑</li>
+                <li>ยุทธศาสตร์ที่ ๒</li>
+                <li>ยุทธศาสตร์ที่ ๓</li>
+                <li>ยุทธศาสตร์ที่ ๔</li>
+
+            </ul>
+
+        </div>
+        <img src="https://placehold.co/1536x300" class="img-fluid" alt="...">
+        <br>
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="footer">
         <div class="container">

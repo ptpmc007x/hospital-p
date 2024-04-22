@@ -261,6 +261,27 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
             text-align: center;
         }
     }
+
+    .table-sub {
+        background-color: white;
+        border: 1px solid #dee2e6;
+        /* เส้นขอบสีเทาอ่อน */
+    }
+
+    .table-sub td {
+        padding: 8px;
+        /* ปรับระยะห่างของเนื้อหาในเซลล์ */
+    }
+
+    .table-sub td:first-child {
+        border-right: 1px solid #dee2e6;
+        /* เส้นขอบด้านขวาของเซลล์ที่อยู่ฝั่งซ้าย */
+    }
+
+    .table-sub td:last-child {
+        border-left: 1px solid #dee2e6;
+        /* เส้นขอบด้านซ้ายของเซลล์ที่อยู่ฝั่งขวา */
+    }
     </style>
 
     <!-- Custom styles for this template -->
@@ -340,9 +361,144 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
         </nav>
     </header>
 
-    <main>
 
+
+
+    <img src="https://placehold.co/1536x600" class="img-fluid" alt="...">
+    <br>
+
+    <main>
+        <div class="container"><br>
+            <h5>ราบละเอียดตัวชี้วัด</h5>
+            <table class="table table-bordered table-light">
+                <thead>
+                    <tr>
+                        <th scope="col">มิติ</th>
+                        <th scope="col">กำหนด</th>
+                        <th scope="col">ประเด็นยุทธศาสตร์</th>
+                        <th scope="col">เป้าหมาย</th>
+                        <th scope="col">หน่วยนับ</th>
+                        <th scope="col">ผู้รับผิดชอบ</th>
+                        <th scope="col">เกณฑ์การให้คะแนน</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <!-- เพิ่มตารางย่อย -->
+                        <td>
+                            <table class="table table-bordered table-sub">
+                                <!-- เพิ่มคลาส table-sub -->
+                                <tbody>
+                                    <tr>
+                                        <td>Subcell 1</td>
+                                        <td>Subcell 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subcell 3</td>
+                                        <td>Subcell 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <!-- เพิ่มตารางเกณฑ์การให้คะแนน -->
+                        <td>
+                            <table class="table table-bordered table-sub">
+                                <!-- เพิ่มคลาส table-sub -->
+                                <tbody>
+                                    <tr>
+                                        <td>Criterion 1</td>
+                                        <td>Score 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Criterion 2</td>
+                                        <td>Score 2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- เพิ่มแถวอื่นๆ ด้วยคล้ายกัน -->
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <!-- เพิ่มตารางย่อย -->
+                        <td>
+                            <table class="table table-bordered table-sub">
+                                <!-- เพิ่มคลาส table-sub -->
+                                <tbody>
+                                    <tr>
+                                        <td>Subcell 1</td>
+                                        <td>Subcell 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subcell 3</td>
+                                        <td>Subcell 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <!-- เพิ่มตารางเกณฑ์การให้คะแนน -->
+                        <td>
+                            <table class="table table-bordered table-sub">
+                                <!-- เพิ่มคลาส table-sub -->
+                                <tbody>
+                                    <tr>
+                                        <td>Criterion 1</td>
+                                        <td>Score 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Criterion 2</td>
+                                        <td>Score 2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- เพิ่มแถวอื่นๆ ด้วยคล้ายกัน -->
+                </tbody>
+            </table>
+
+
+
+        </div>
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="footer">
         <div class="container">

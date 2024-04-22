@@ -261,6 +261,36 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
             text-align: center;
         }
     }
+
+
+
+    /* ribbins */
+    #ribbin {
+        width: 200px;
+        height: 40px;
+        position: relative;
+        background: blue;
+        color: #fff;
+    }
+
+    #ribbin:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-right: 20px solid white;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+    }
+
+    .postext {
+        text-align: center;
+        position: relative;
+        top: 10px;
+        right: 10px;
+    }
     </style>
 
     <!-- Custom styles for this template -->
@@ -340,9 +370,92 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
         </nav>
     </header>
 
+    <br>
     <main>
+        <div class="container">
+            <div class="container" id="ribbin">
+                <p class="postext">รางวัลและความภาคภูมิใจ</p>
+            </div>
+            <div><br>
+                <h6>คุณคือความภาคภูมิใจของเรา</h6>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <figure class="figure">
+                        <img src="https://placehold.co/500x500" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption"></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h5>โรงพยาบาลสมเด็จพระยุพราชปัว</h5>
+                    <p>ขอส่งกำลังใจให้ทีมเจ้าหน้าที่ร่วมอาสาไปปฏิบัติหน้าที่ ณ โรงพยาบาลบุษราคัม จังหวัดนนทบุรี วันที่ 6
+                        - 21 กรกฎาคม 2564 จำนวน 4 ท่าน</p>
+                    <ol>
+                        <li>ภก.ดุริยะ กุณรินทร์ เภสัชกรปฏิบัติการ</li>
+                        <li>พว.กฤตธิชา เชี่ยวรอบ พยาบาลวิชาชีพชำนาญการ ตึกสามัญหญิง</li>
+                        <li>พว.ศรินธร มะจินะ พยาบาลวิชาชีพชำนาญการ ตึกสามัญชาย</li>
+                        <li>พว.วรางคณา เชื้อหมอ พยาบาลวิชาชีพปฏิบัติการ <br>
+                            ตึกอุบัติเหตุฉุกเฉิน ร่วมกับทีมเจ้าหน้าที่จากโรงพยาบาลชุมชนในจังหวัดน่านประกอบด้วย แพทย์<br>
+                            เภสัชกร พยาบาล เวชกิจฉุกเฉิน ผู้ช่วยเหลือคนไข้ ทั้งหมดจำนวน 15 ท่าน<br>
+                            จาก...<br>
+                            โรงพยาบาลท่าวังผา<br>
+                            โรงพยาบาลเฉลิมพระเกียรติ<br>
+                            โรงพยาบาลสองแคว<br>
+                            โรงพยาบาลสันติสุข<br>
+                            โรงพยาบาลนาหมื่น<br>
+                            โรงพยาบาลบ่อเกลือ<br>
+                            การไปปฏิบัติหน้าที่ครั้งนี้<br>
+                            เป็นการทำงานเพื่อชาติ<br>
+                            เป็นตัวแทนของชาวน่านที่ไปช่วยแบ่งเบาความเดือดร้อน
+                        </li>
+                    </ol>
+                </div>
+            </div><br>
+            <h5 class="text-center text-primary">ถอดรหัส รพ.สมเด็จพระยุพราชปัว เจ้าของรางวัล SHA AWARD ยกหัวใจสำคัญ
+                HA-SHA
+                สร้างสมดุลงานจากฐานราก สร้างคุณภาพงานให้เกิดความยั่งยืน</h5>
+
+            <br>
+
+            <figure class="figure">
+                <img src="https://placehold.co/1500x500" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption"></figcaption>
+            </figure>
+
+            <br>
+            <h6 class="text-center">ผอ.รพ.สมเด็จพระยุพราชปัวยังได้รับรางวัลแพทย์ดีเด่นในชนบท ประจำปี 2561
+                คณะแพทยศาสตร์ศิริราชพยาบาล</h6>
+        </div>
+
 
     </main>
+
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="footer">
         <div class="container">
