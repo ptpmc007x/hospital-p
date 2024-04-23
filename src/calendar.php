@@ -11,7 +11,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <meta name="theme-color" content="#563d7c" />
 
 
@@ -22,74 +24,74 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.js'></script>
 
     <style>
+    #calendar {
+        max-width: 900px;
+        /* Set maximum width of calendar */
+        margin: 0 auto;
+        /* Center the calendar */
+    }
+
+    @media screen and (max-width: 768px) {
         #calendar {
-            max-width: 900px;
-            /* Set maximum width of calendar */
-            margin: 0 auto;
-            /* Center the calendar */
+            max-width: 100%;
+            /* Set maximum width to full width on smaller screens */
+            margin-left: 10px;
+            /* Add some left margin on smaller screens */
+            margin-right: 10px;
+            /* Add some right margin on smaller screens */
         }
+    }
 
-        @media screen and (max-width: 768px) {
-            #calendar {
-                max-width: 100%;
-                /* Set maximum width to full width on smaller screens */
-                margin-left: 10px;
-                /* Add some left margin on smaller screens */
-                margin-right: 10px;
-                /* Add some right margin on smaller screens */
-            }
-        }
+    /* ribbins */
+    #ribbin {
+        width: 200px;
+        height: 40px;
+        position: relative;
+        background: blue;
+        color: #fff;
+    }
 
-        /* ribbins */
-        #ribbin {
-            width: 200px;
-            height: 40px;
-            position: relative;
-            background: blue;
-            color: #fff;
-        }
+    #ribbin:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-right: 20px solid white;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+    }
 
-        #ribbin:after {
-            content: "";
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            width: 0;
-            height: 0;
-            border-right: 20px solid white;
-            border-top: 20px solid transparent;
-            border-bottom: 20px solid transparent;
-        }
+    .postext {
+        text-align: center;
+        position: relative;
+        top: 10px;
+        right: 10px;
+    }
 
-        .postext {
-            text-align: center;
-            position: relative;
-            top: 10px;
-            right: 10px;
-        }
+    /* figgle */
+    .figure {
+        text-align: center;
+    }
 
-        /* figgle */
-        .figure {
-            text-align: center;
-        }
-
-        .figure-caption {
-            text-align: center;
-        }
+    .figure-caption {
+        text-align: center;
+    }
 
 
-        /* Card */
-        .card {
-            display: flex;
-            justify-content: center;
-        }
+    /* Card */
+    .card {
+        display: flex;
+        justify-content: center;
+    }
 
-        /* img */
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    /* img */
+    .center-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     </style>
 </head>
 
@@ -174,19 +176,19 @@
 
     <div id='calendar'></div>
     <script>
-        $(document).ready(function() {
-            $('#calendar').fullCalendar({
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,basicWeek,basicDay'
-                },
-                defaultDate: '<?php echo date("Y-m-d"); ?>', // Set default date to today
-                editable: false,
-                eventLimit: true, // allow "more" link when too many events
-                events: 'get_events.php' // PHP script to fetch events
-            });
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,basicWeek,basicDay'
+            },
+            defaultDate: '<?php echo date("Y-m-d"); ?>', // Set default date to today
+            editable: false,
+            eventLimit: true, // allow "more" link when too many events
+            events: 'get_events.php' // PHP script to fetch events
         });
+    });
     </script>
 
 

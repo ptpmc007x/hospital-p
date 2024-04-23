@@ -1,25 +1,25 @@
 <?php
 // กำหนด URL ของหน้าต่างๆที่ต้องการให้เมนูลิงค์ไป
-$services_step_url = "./pages/services/steps-for-treatment.php";
-$doctor_schedule_url = "./pages/services/doctor-schedule.php";
-$special_services_url = "./pages/services/special-services.php";
-$doctor_list_url = "./pages/services/doctor-list.php";
+$services_step_url = "../../pages/services/steps-for-treatment.php";
+$doctor_schedule_url = "../../pages/services/doctor-schedule.php";
+$special_services_url = "../../pages/services/special-services.php";
+$doctor_list_url = "../../pages/services/doctor-list.php";
 
-$about_about_url = "./pages/about/about.php";
-$about_structure_url = "./pages/about/structure.php";
-$about_vision_url = "./pages/about/vision-mission.php";
-$about_strategic_url = "./pages/about/strategic-plan.php";
-$about_projects_url = "./pages/about/projects-budget.php";
-$about_awards_url = "./pages/about/awards-pride.php";
-$about_activities_url = "./pages/about/activities.php";
-$about_reports_url = "./pages/about/annual-reports.php";
-$about_contact_url = "./pages/about/contact-us.php";
+$about_about_url = "../../pages/about/about.php";
+$about_structure_url = "../../pages/about/structure.php";
+$about_vision_url = "../../pages/about/vision-mission.php";
+$about_strategic_url = "../../pages/about/strategic-plan.php";
+$about_projects_url = "../../pages/about/projects-budget.php";
+$about_awards_url = "../../pages/about/awards-pride.php";
+$about_activities_url = "../../pages/about/activities.php";
+$about_reports_url = "../../pages/about/annual-reports.php";
+$about_contact_url = "../../pages/about/contact-us.php";
 
-$medical_research_url = "./pages/medical/research-technology.php";
-$medical_training_url = "./pages/medical/training-education.php";
-$medical_rax_url = "./pages/medical/rax-checkpoint.php";
-$medical_hosxp_structure_url = "./pages/medical/hosxp-structure-adjustment-documents.php";
-$medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
+$medical_research_url = "../../pages/medical/research-technology.php";
+$medical_training_url = "../../pages/medical/training-education.php";
+$medical_rax_url = "../../pages/medical/rax-checkpoint.php";
+$medical_hosxp_structure_url = "../../pages/medical/hosxp-structure-adjustment-documents.php";
+$medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 ?>
 
 
@@ -39,17 +39,15 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <meta name="theme-color" content="#563d7c" />
 
     <style>
-    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap");
 
 
 
-    /* .navbar {
+        /* .navbar {
         background-color: #f8f9fa;
         padding-top: 12px;
         padding-bottom: 12px;
@@ -58,41 +56,41 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
 
     } */
 
-    .navbar-brand {
-        color: #0056b3 !important;
-        display: flex;
-        align-items: center;
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        /* เลือกใช้ฟอนต์ */
-    }
+        .navbar-brand {
+            color: #0056b3 !important;
+            display: flex;
+            align-items: center;
+            font-family: "IBM Plex Sans Thai", sans-serif;
+            /* เลือกใช้ฟอนต์ */
+        }
 
-    .navbar-brand img {
-        width: 50px;
-        height: auto;
-        margin-right: 10px;
-        margin-left: 20px;
-        transition: transform 0.3s;
-        cursor: pointer;
-    }
+        .navbar-brand img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+            margin-left: 20px;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
 
-    .navbar-brand:hover {
-        color: #007bff;
-    }
+        .navbar-brand:hover {
+            color: #007bff;
+        }
 
-    .navbar-nav .nav-link:hover {
-        color: #007bff;
-        font-size: 18px;
-        margin-right: 20px;
-        margin-left: 20px;
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        /* เลือกใช้ฟอนต์ */
-    }
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+            font-size: 18px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-family: "IBM Plex Sans Thai", sans-serif;
+            /* เลือกใช้ฟอนต์ */
+        }
 
-    .navbar-nav .nav-link {
-        color: #0056b3 !important;
-    }
+        .navbar-nav .nav-link {
+            color: #0056b3 !important;
+        }
 
-    /* 
+        /* 
         .btn-dark {
             background-color: #343a40;
             border-color: #343a40;
@@ -100,14 +98,14 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
             font-weight: bold;
         } */
 
-    /* ระยะห่างระหว่างเมนู */
-    .nav-item {
-        margin-left: 25px;
+        /* ระยะห่างระหว่างเมนู */
+        .nav-item {
+            margin-left: 25px;
 
-    }
+        }
 
-    /* ให้ Navbar อยู่ด้านหน้าสุด */
-    /* .navbar {
+        /* ให้ Navbar อยู่ด้านหน้าสุด */
+        /* .navbar {
         position: fixed;
         width: 100%;
         top: 0;
@@ -116,152 +114,191 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
 
     } */
 
-    /* ซ่อน Navbar ไปด้านบน */
-    /* .navbar-hidden {
+        /* ซ่อน Navbar ไปด้านบน */
+        /* .navbar-hidden {
         top: -100px;
 
     } */
 
 
 
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(52, 58, 64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(52, 58, 64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
 
 
-    /* footerstyle */
+        /* footerstyle */
 
-    .footer {
-        background-color: #5BA1E1;
-        padding: 50px 0;
-        color: white;
-    }
+        .footer {
+            background-color: #5BA1E1;
+            padding: 50px 0;
+            color: white;
+        }
 
-    .link-list li {
-        margin-bottom: 10px;
-    }
+        .link-list li {
+            margin-bottom: 10px;
+        }
 
-    .link-list li a {
-        color: white;
-        text-decoration: none;
-    }
+        .link-list li a {
+            color: white;
+            text-decoration: none;
+        }
 
-    .link-list li a:hover {
-        color: #0056b3;
-    }
+        .link-list li a:hover {
+            color: #0056b3;
+        }
 
-    .map-img {
-        text-align: right;
-    }
+        .map-img {
+            text-align: right;
+        }
 
-    /* .copy {
+        /* .copy {
         background-color: #343a40;
         color: #f8f9fa;
         padding: 15px 0;
     } */
 
-    .social-media-icons {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
 
-    .social-media-icon {
-        margin: 0 10px;
-        font-size: 24px;
-        color: #343a40;
-        transition: color 0.3s;
-    }
+        .social-media-icon {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #343a40;
+            transition: color 0.3s;
+        }
 
-    .social-media-icon:hover {
-        color: #007bff;
-    }
-
-
-
-    /*Nav  */
-    .navbar-brand {
-        display: flex;
-        align-items: center;
-        /* margin-right: auto; */
-        /* ชิดซ้าย */
-    }
-
-    /* ปรับระยะห่างของโลโก้จากขอบขวา */
-    .navbar-brand {
-        margin-right: 20px;
-
-    }
-
-
-    .navbar-brand {
-        white-space: normal;
-        word-wrap: break-word;
-    }
+        .social-media-icon:hover {
+            color: #007bff;
+        }
 
 
 
-
-
-    @media (max-width: 768px) {
+        /*Nav  */
         .navbar-brand {
-            font-size: 14px;
-            /* ปรับขนาดตัวอักษรเมื่อหน้าจอมีขนาดเล็กกว่า 768px */
+            display: flex;
+            align-items: center;
+            /* margin-right: auto; */
+            /* ชิดซ้าย */
         }
-    }
 
-    @media (max-width: 576px) {
-        .navbar-brand img {
-            width: 25px;
-            /* ปรับขนาดของโลโก้เมื่อหน้าจอมีขนาดเล็กกว่า 576px */
-            height: 25px;
+        /* ปรับระยะห่างของโลโก้จากขอบขวา */
+        .navbar-brand {
+            margin-right: 20px;
+
         }
-    }
 
-    .social-media-icons {
-        display: flex;
-        align-items: center;
-        /* margin-left: auto; */
-        /* ชิดขวา */
-    }
 
-    .social-media-icon {
-        margin-right: 10px;
-        /* ระยะห่างระหว่างไอคอน */
-    }
-
-    /* ปรับขนาดข้อความของ List Items ใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-    @media (max-width: 768px) {
-        .link-list li {
-            font-size: 14px;
+        .navbar-brand {
+            white-space: normal;
+            word-wrap: break-word;
         }
-    }
 
-    /* ปรับการจัดวางของข้อมูลใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-    @media (max-width: 576px) {
-        .map-img {
+
+
+
+
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 14px;
+                /* ปรับขนาดตัวอักษรเมื่อหน้าจอมีขนาดเล็กกว่า 768px */
+            }
+        }
+
+        @media (max-width: 576px) {
+            .navbar-brand img {
+                width: 25px;
+                /* ปรับขนาดของโลโก้เมื่อหน้าจอมีขนาดเล็กกว่า 576px */
+                height: 25px;
+            }
+        }
+
+        .social-media-icons {
+            display: flex;
+            align-items: center;
+            /* margin-left: auto; */
+            /* ชิดขวา */
+        }
+
+        .social-media-icon {
+            margin-right: 10px;
+            /* ระยะห่างระหว่างไอคอน */
+        }
+
+        /* ปรับขนาดข้อความของ List Items ใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+        @media (max-width: 768px) {
+            .link-list li {
+                font-size: 14px;
+            }
+        }
+
+        /* ปรับการจัดวางของข้อมูลใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+        @media (max-width: 576px) {
+            .map-img {
+                text-align: center;
+            }
+        }
+
+
+        /* ปรับขนาดของ Social media icons ในขนาดหน้าจอที่เล็กกว่า */
+        .social-media-icons {
             text-align: center;
         }
-    }
 
+        .social-media-icon {
+            display: inline-block;
+            margin: 0 10px;
+        }
 
-    /* ปรับขนาดของ Social media icons ในขนาดหน้าจอที่เล็กกว่า */
-    .social-media-icons {
-        text-align: center;
-    }
+        /* ปรับการจัดวางของข้อความใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+        @media (max-width: 768px) {
+            .col-md-6 {
+                text-align: center;
+            }
+        }
 
-    .social-media-icon {
-        display: inline-block;
-        margin: 0 10px;
-    }
+        /* CSS for centering the title */
+        .title-container {
+            text-align: center;
+            /* Align text in the center */
+            margin-top: 50px;
+            /* Add margin space from the top */
+            color: #1E90FF;
+        }
 
-    /* ปรับการจัดวางของข้อความใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-    @media (max-width: 768px) {
-        .col-md-6 {
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #FFFF00;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #1E90FF;
+        }
+
+        .txt {
             text-align: center;
         }
-    }
+
+        /* CSS for centering */
+        .container {
+            text-align: center;
+            /* Align text in the center */
+            margin-top: 50px;
+            /* Add margin space from the top */
+            color: #1E90FF;
+        }
     </style>
+
 
     <!-- Custom styles for this template -->
     <link href="./styles/aboutstyle.css" rel="stylesheet" />
@@ -273,33 +310,28 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
     <header>
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="index.php">
-                <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png"
-                    width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
+                <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
                 โรงพยาบาลสมเด็จพระยุพราชปัว
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             บริการของเรา
                         </a>
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <a class="dropdown-item"
-                                href="<?php echo $services_step_url; ?>">ขั้นตอนการเข้ารับการรักษา</a>
+                            <a class="dropdown-item" href="<?php echo $services_step_url; ?>">ขั้นตอนการเข้ารับการรักษา</a>
                             <a class="dropdown-item" href="<?php echo $doctor_schedule_url; ?>">ตารางแพทย์ออกตรวจ</a>
                             <a class="dropdown-item" href="<?php echo $special_services_url; ?>">Special Services</a>
                             <a class="dropdown-item" href="<?php echo $doctor_list_url; ?>">รายชื่อแพทย์</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             เกี่ยวกับ รพร.ปัว
                         </a>
                         <div class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -317,17 +349,14 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="MedicalDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="MedicalDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             สำหรับบุคลากรทางการแพทย์
                         </a>
                         <div class="dropdown-menu" aria-labelledby="MedicalDropdown">
-                            <a class="dropdown-item"
-                                href="<?php echo $medical_research_url; ?>">วิจัยและเทคโนโลยีด้านการแพทย์</a>
+                            <a class="dropdown-item" href="<?php echo $medical_research_url; ?>">วิจัยและเทคโนโลยีด้านการแพทย์</a>
                             <a class="dropdown-item" href="<?php echo $medical_training_url; ?>">การอบรมการศึกษา</a>
                             <a class="dropdown-item" href="<?php echo $medical_rax_url; ?>">Rax Check Point</a>
-                            <a class="dropdown-item"
-                                href="<?php echo $medical_hosxp_structure_url; ?>">เอกสารสำหรับปรับโครงสร้าง HOSXP
+                            <a class="dropdown-item" href="<?php echo $medical_hosxp_structure_url; ?>">เอกสารสำหรับปรับโครงสร้าง HOSXP
                                 2566</a>
                             <a class="dropdown-item" href="<?php echo $medical_hosxp_export_url; ?>">รายการตามหมวด
                                 EXPORT
@@ -339,9 +368,172 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
             </div>
         </nav>
     </header>
-    <main>
 
+
+    <main>
+        <div class="title-container">
+            <!-- <h1>ตารางแพทย์ออกตรวจ</h1> -->
+        </div>
+        <main role="main">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="qq.jpg" class="img-responsive" />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 1 มาวางที่นี่ -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="ww.jpg" class="img-responsive" />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 2 มาวางที่นี่ -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="ee.jpg" class="img-responsive" />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 3 มาวางที่นี่ -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="http://www.puahospital.go.th/wp-content/uploads/2023/12/405204503_736872325153682_2880091393100128885_n.jpg" class="img-responsive" />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <!-- นำเนื้อหาที่ต้องการใส่ในสไลด์ 3 มาวางที่นี่ -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </main>
+
+        <body>
+            <div class="container">
+                <div>
+                    <h4 class="txt">ตารางแพทย์ออกตรวจ</h4>
+                </div>
+                <br>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">คลินิกผู้ป่วยนอก</th>
+                            <th scope="col">เวลา/ทำการ</th>
+                            <th scope="col">สถานที่</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>ผู้ป่วยนอก</td>
+                            <td>9.00-16.00 u.</td>
+                            <td>ชั้น 2 อาคารสยามบรมราชกุมารี</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>คลินิกโรคภูมิแพ้ ภูมิคุ้มกันและโรคข้อ</td>
+                            <td>อังคาร / พฤหัสฯ 9.00-12.00 u</td>
+                            <td>ชั้น 12 อาคารเฉลิมพระเกียรติฯ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>คลินิกโรคภูมิแพ้ ภูมิคุ้มกันและโรคข้อ</td>
+                            <td>อังคาร / พฤหัสฯ 9.00-12.00 u</td>
+                            <td>ชั้น 12 อาคารเฉลิมพระเกียรติฯ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>คลินิกโรคหัวใจ</td>
+                            <td>ทุกวันพุธ  8.00-12.00 u.</td>
+                            <td>ชั่น 2 อาคารสยามฯ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>คลินิกจิตเวชเด็กและวัยรุ่น</td>
+                            <td>จันทร์ - ศุกร์ 7.30-16.00 u</td>
+                            <td>ชั้น 12A อาคารเฉลิมพระเกียรติฯ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>คลินิกพัฒนาการคลินิกกระตุ้นพัฒนาการ</td>
+                            <td>จันทร์ - ศุกร์ 9.00-12.00 u.</td>
+                            <td>ชั้น 3 อาคารสยาม</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td> คลินิกทันตกรรม</td>
+                            <td>จันทร์ - ศุกร์ 8.00-16.00 u.</td>
+                            <td>ชั้น 12 อาคารเฉลิมพระเกียรติฯ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>คลินิก หู คอ จมูก คลินิกตรวจการได้ยิน คลินิกฝึกพูด</td>
+                            <td>จันทร์ - ศุกร์ 8.00-16.00 u.</td>
+                            <td>ชั้น 11 อาคารเฉลิมพระเกียรติฯ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>คลินิกโรคผิวหนัง</td>
+                            <td>จันทร์/พุธ/พฤหัสฯ 16.00-20.00 u</td>
+                            <td>ชั้น 2 อาคารสยามบรมราชกุมารี</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>คลินิกโรคต่อมไร้ท่อคลินิกโรคต่อมไร้ท่อ ผู้ป่วยใหม่ เบาหวานในเด็กและวัยรุ่น</td>
+                            <td>จันทร์ - ศุกร์ 8.00 - 12.00 น</td>
+                            <td>ชั้น 2 อาคารสยาม</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>คลิกนิกศัลยกรรมทั่วไป</td>
+                            <td>พฤหัสฯ 9.00-16.00 u.</td>
+                            <td>ชั้น 2 อาคารสยาม</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12</th>
+                            <td>คลินิกโรคระบบทางเดินอาหารและตับ</td>
+                            <td>จันทร์/พุธ จันทร์ 8.00-12.00 u.</td>
+                            <td>ชั้น 12 อาคารเฉลิมพระเกียรติฯ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </body>
+
+        <br>
+        <div>
+
+        </div>
+        </div>
+
+
+        </br>
     </main>
+
+
+
+
 
     <footer class="footer">
         <div class="container">
@@ -355,8 +547,7 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
 
                     </div>
                     <a class="navbar-brand" href="index.php">
-                        <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png"
-                            width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
+                        <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
                         Pua Crown Prince Hospital
                         โรงพยาบาลสมเด็จพระยุพราชปัว
                     </a>
@@ -368,38 +559,24 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="about.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right"
-                                        style="font-size: 14px;"></i></li>
-                                <li><a href="services.php" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right"
-                                        style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">รายชื่อเเพทย์</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right"
-                                        style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">โครงสร้างผู้บริหาร</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="about.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="services.php" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="logins.php" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="logins.php" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="logins.php" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="logins.php" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="logins.php" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="gallery.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รายงานประจำปี</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">การอบรมการศึกษา</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ภาพกิจกรรม</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="gallery.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="contact.php" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="contact.php" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="contact.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="contact.php" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="contact.php" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="contact.php" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                     </div>
@@ -420,11 +597,6 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-
-
-
 
 
 </body>

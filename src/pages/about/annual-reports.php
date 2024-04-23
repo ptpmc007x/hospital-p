@@ -1,25 +1,25 @@
 <?php
 // กำหนด URL ของหน้าต่างๆที่ต้องการให้เมนูลิงค์ไป
-$services_step_url = "./pages/services/steps-for-treatment.php";
-$doctor_schedule_url = "./pages/services/doctor-schedule.php";
-$special_services_url = "./pages/services/special-services.php";
-$doctor_list_url = "./pages/services/doctor-list.php";
+$services_step_url = "../../pages/services/steps-for-treatment.php";
+$doctor_schedule_url = "../../pages/services/doctor-schedule.php";
+$special_services_url = "../../pages/services/special-services.php";
+$doctor_list_url = "../../pages/services/doctor-list.php";
 
-$about_about_url = "./pages/about/about.php";
-$about_structure_url = "./pages/about/structure.php";
-$about_vision_url = "./pages/about/vision-mission.php";
-$about_strategic_url = "./pages/about/strategic-plan.php";
-$about_projects_url = "./pages/about/projects-budget.php";
-$about_awards_url = "./pages/about/awards-pride.php";
-$about_activities_url = "./pages/about/activities.php";
-$about_reports_url = "./pages/about/annual-reports.php";
-$about_contact_url = "./pages/about/contact-us.php";
+$about_about_url = "../../pages/about/about.php";
+$about_structure_url = "../../pages/about/structure.php";
+$about_vision_url = "../../pages/about/vision-mission.php";
+$about_strategic_url = "../../pages/about/strategic-plan.php";
+$about_projects_url = "../../pages/about/projects-budget.php";
+$about_awards_url = "../../pages/about/awards-pride.php";
+$about_activities_url = "../../pages/about/activities.php";
+$about_reports_url = "../../pages/about/annual-reports.php";
+$about_contact_url = "../../pages/about/contact-us.php";
 
-$medical_research_url = "./pages/medical/research-technology.php";
-$medical_training_url = "./pages/medical/training-education.php";
-$medical_rax_url = "./pages/medical/rax-checkpoint.php";
-$medical_hosxp_structure_url = "./pages/medical/hosxp-structure-adjustment-documents.php";
-$medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
+$medical_research_url = "../../pages/medical/research-technology.php";
+$medical_training_url = "../../pages/medical/training-education.php";
+$medical_rax_url = "../../pages/medical/rax-checkpoint.php";
+$medical_hosxp_structure_url = "../../pages/medical/hosxp-structure-adjustment-documents.php";
+$medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 ?>
 
 

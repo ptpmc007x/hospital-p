@@ -1,25 +1,25 @@
 <?php
 // กำหนด URL ของหน้าต่างๆที่ต้องการให้เมนูลิงค์ไป
-$services_step_url = "./pages/services/steps-for-treatment.php";
-$doctor_schedule_url = "./pages/services/doctor-schedule.php";
-$special_services_url = "./pages/services/special-services.php";
-$doctor_list_url = "./pages/services/doctor-list.php";
+$services_step_url = "../../pages/services/steps-for-treatment.php";
+$doctor_schedule_url = "../../pages/services/doctor-schedule.php";
+$special_services_url = "../../pages/services/special-services.php";
+$doctor_list_url = "../../pages/services/doctor-list.php";
 
-$about_about_url = "./pages/about/about.php";
-$about_structure_url = "./pages/about/structure.php";
-$about_vision_url = "./pages/about/vision-mission.php";
-$about_strategic_url = "./pages/about/strategic-plan.php";
-$about_projects_url = "./pages/about/projects-budget.php";
-$about_awards_url = "./pages/about/awards-pride.php";
-$about_activities_url = "./pages/about/activities.php";
-$about_reports_url = "./pages/about/annual-reports.php";
-$about_contact_url = "./pages/about/contact-us.php";
+$about_about_url = "../../pages/about/about.php";
+$about_structure_url = "../../pages/about/structure.php";
+$about_vision_url = "../../pages/about/vision-mission.php";
+$about_strategic_url = "../../pages/about/strategic-plan.php";
+$about_projects_url = "../../pages/about/projects-budget.php";
+$about_awards_url = "../../pages/about/awards-pride.php";
+$about_activities_url = "../../pages/about/activities.php";
+$about_reports_url = "../../pages/about/annual-reports.php";
+$about_contact_url = "../../pages/about/contact-us.php";
 
-$medical_research_url = "./pages/medical/research-technology.php";
-$medical_training_url = "./pages/medical/training-education.php";
-$medical_rax_url = "./pages/medical/rax-checkpoint.php";
-$medical_hosxp_structure_url = "./pages/medical/hosxp-structure-adjustment-documents.php";
-$medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
+$medical_research_url = "../../pages/medical/research-technology.php";
+$medical_training_url = "../../pages/medical/training-education.php";
+$medical_rax_url = "../../pages/medical/rax-checkpoint.php";
+$medical_hosxp_structure_url = "../../pages/medical/hosxp-structure-adjustment-documents.php";
+$medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 ?>
 
 
@@ -259,7 +259,23 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
                 text-align: center;
             }
         }
+
+        /* CSS for centering the title */
+        .title-container {
+            text-align: center;
+            /* Align text in the center */
+            margin-top: 50px;
+            /* Add margin space from the top */
+            color: #1E90FF;
+        }
+
+
+        p {
+            text-indent: 50px;
+            /*กำหนดย่อหน้า*/
+        }
     </style>
+
 
     <!-- Custom styles for this template -->
     <link href="./styles/aboutstyle.css" rel="stylesheet" />
@@ -329,9 +345,60 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
             </div>
         </nav>
     </header>
-    <main>
 
-    </main>
+
+    <div class="card-body">
+        <figure class="figure" style="width: 400px; margin-left: auto; margin-right: auto;">
+            <img src="different.png" class="figure-img img-fluid rounded" alt="...">
+        </figure>
+    </div>
+    <div class="card-body" style="display: flex; justify-content: center;">
+        <figure class="figure" style="width: 900px;">
+            <img src="hos6.png" class="figure-img img-fluid rounded" alt="..." style="margin: auto;">
+        </figure>
+    </div>
+    <br>
+
+    <body>
+        <p>จากจำนวนผู้ติดเชื้อโควิด-19 ที่เพิ่มมากขึ้นในการระบาดระลอกที่ 3 ในประเทศไทย
+            ทำให้ต้องมีการเพิ่มมาตรการรองรับการดูแลผู้ป่วยในหลากหลายแนวทาง
+            โดยเฉพาะการเกิดขึ้นของโรงพยาบาลสนาม รวมถึง Hospitel สอวช.
+            จึงได้รวบรวมข้อมูลความแตกต่างของทั้งสองสถานที่นี้มาฝากกัน</p>
+        <p>
+            สำหรับการจัดตั้งโรงพยาบาลสนามแต่ละแห่ง เป็นไปตามมาตรฐานที่กำหนด เพื่อให้มีความปลอดภัยเป็นอันดับแรก
+            ภายใต้การทำงานร่วมกันของกระ
+            ทรวงสาธารณสุขได้แก่กรมสนับสนุนบริการสุขภาพผู้เชี่ยวชาญทั้งด้านระบาดวิทยาด้านการแพทย์กับฝ่ายปกครองท้องถิ่นต่างๆและมีนายแพทย์สาธารณสุขจังหวัด
+            เป็นผู้อนุญาตให้จัดตั้งได้ ด้วยความเห็นชอบของคณะกรรมการโรคติดต่อจังหวัด ซึ่งมีการจัดโซนนิ่งให้ห่างจากชุมชน
+            อาคารมีระบบจัดการน้ำเสีย การจัดการอากาศ
+            การไหลเวียนของอากาศ มีบุคลากรทางการแพทย์ทำงานประจำและต่อเนื่อง เป็นต้น
+        </p>
+        <p>
+            ส่วน Hospitel หรือสถานพยาบาลผู้ป่วยเฉพาะกิจ มีที่มาจากการรวมคำว่า Hospital ที่แปลว่า โรงพยาบาล และ Hotel
+            ที่แปลว่า โรงแรม เข้าด้วยกัน
+            จากการปรับเปลี่ยนโรงแรมให้เป็นสถานพยาบาลชั่วคราว โดย Hospitel เหมาะสำหรับผู้ป่วยโควิด-19
+            ที่ต้องการความสะดวกสบาย เป็นส่วนตัวมากกว่าโรงพยาบาล
+            สนามรองรับผู้ป่วยที่มีอาการน้อยหรือไม่รุนแรงปรับเปลี่ยนโรงแรมให้เป็นพื้นที่เฝ้าระวังอาการเพื่อให้โรงพยาบาลสามารถรองรับผู้ป่วยที่มีอาการหนักได้อย่างเต็มที่
+            และมีประสิทธิภาพสูงสุด
+        </p>
+        <p>
+            ตามหลักเกณฑ์ การปรับใช้โรงแรม เป็น “Hospitel” จะต้องเป็นโรงแรมที่มีห้องพักมากกว่า 30 ห้องขึ้นไป,
+            เหมาะสำหรับผู้ป่วยที่ได้รับการรักษาในโรงพยาบาล
+            มาแล้วไม่น้อยกว่า 5-7 วัน และมีผลภาพถ่ายรังสีปอดคงที่, ผู้ป่วยยินดีให้ความร่วมมือ สามารถสื่อสารได้รู้เรื่อง
+            ดูแลตนเองได้ดี ไม่ก้าวร้าว และไม่มีความเสี่ยงทาง
+            จิตเวช, ผู้ป่วยไม่มีไข้ กรณีมีโรคประจำตัว ต้องควบคุมอาการได้ดี, ต้องจัดยาให้พร้อม
+            สำหรับให้ผู้ป่วยรับประทานด้วยตัวเองจนครบตามแผนการรักษาของแพทย์
+            และโรงพยาบาลต้นทางต้องยินดีรับผู้ป่วยกลับเข้ารักษาที่โรงพยาบาล หากผู้ป่วยมีอาการเปลี่ยนแปลงโดยมาตรฐานของ
+            Hospitel คือ ทีมแพทย์จะดำเนินการตรวจและบันทึกอาการผู้ป่วยทุกวันผ่านเทเลเมดิซีนหรือไลน์กลุ่ม, ทุก Hospitel
+            จะต้องมีแพทย์ 1 คนประจำ มีพยาบาลอัตราส่วน 20
+            เตียงต่อ 1 พยาบาล มีการตรวจคนไข้ผ่านเทเลเมดิซีน และแอพพลิเคชั่นไลน์ มีการเยี่ยมผู้ป่วยทุกวัน
+            พร้อมทั้งมีเครื่องมือพื้นฐานต่างๆ เช่น เครื่องวัดอุณหภูมิ เครื่องวัดระดับความเข้มข้นออกซิเจนในเลือด
+            และเครื่องเอกซเรย์ เป็นต้น ที่สำคัญ คือ ผู้ป่วยทุกราย ต้องผ่านการตรวจคัดกรองจากโรงพยาบาลหลักก่อน
+            ข้อกำหนดหลักๆ เช่น อายุไม่เกิน 50 ปี ไม่มีโรคประจำตัวอื่น ไม่ใช่เด็ก ไม่ตั้งครรภ์
+            ไม่มีเอกซเรย์ที่เปลี่ยนแปลง จึงจะสามารถย้ายเข้ามาได้
+            และในกรณีที่ผู้ป่วยมีอาการมากขึ้นก็จะย้ายไปยังโรงพยาบาลหลักได้ทันที
+        </p>
+    </body>
+    <br>
 
 
 
@@ -396,17 +463,9 @@ $medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
         </div>
     </div>
 
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-
-
-
 
 
 </body>

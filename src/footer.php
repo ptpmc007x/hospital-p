@@ -1,3 +1,30 @@
+<?php
+// กำหนด URL สำหรับแต่ละเมนู
+$services_step_url = "src/pages/services/steps-for-treatment.php";
+$doctor_schedule_url = "src/pages/services/doctor-schedule.php";
+$special_services_url = "src/pages/services/special-services.php";
+$doctor_list_url = "src/pages/services/doctor-list.php";
+
+$about_about_url = "src/pages/about/about.php";
+$about_structure_url = "src/pages/about/structure.php";
+$about_vision_url = "src/pages/about/vision-mission.php";
+$about_strategic_url = "src/pages/about/strategic-plan.php";
+$about_projects_url = "src/pages/about/projects-budget.php";
+$about_awards_url = "src/pages/about/awards-pride.php";
+$about_activities_url = "./calendar.php";
+$about_reports_url = "src/pages/about/annual-reports.php";
+$about_contact_url = "src/pages/about/contact-us.php";
+
+$medical_research_url = "src/pages/medical/research-technology.php";
+$medical_training_url = "src/pages/medical/training-education.php";
+$medical_rax_url = "src/pages/medical/rax-checkpoint.php";
+$medical_hosxp_structure_url = "src/pages/medical/hosxp-structure-adjustment-documents.php";
+$medical_hosxp_export_url = "src/pages/medical/hosxp-2566-export-list.php";
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -176,24 +203,26 @@
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="about.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="services.php" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="/index.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $services_step_url; ?>" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $doctor_schedule_url; ?>" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $special_services_url; ?>" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $doctor_list_url; ?>" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_about_url; ?>" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_structure_url; ?>" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="gallery.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_vision_url; ?>" class="custom-link">วิสัยทัศน์
+                                        พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $medical_training_url; ?>" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_projects_url; ?>" class="custom-link">แผนโครงการ
+                                        และงบประมาณ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_awards_url; ?>" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_activities_url; ?>" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                     </div>
