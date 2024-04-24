@@ -1,25 +1,75 @@
 <?php
+
 // กำหนด URL ของหน้าต่างๆที่ต้องการให้เมนูลิงค์ไป
-$services_step_url = "../../pages/services/steps-for-treatment.php";
-$doctor_schedule_url = "../../pages/services/doctor-schedule.php";
-$special_services_url = "../../pages/services/special-services.php";
-$doctor_list_url = "../../pages/services/doctor-list.php";
+$services_step_url = "./pages/services/steps-for-treatment.php";
+$doctor_schedule_url = "./pages/services/doctor-schedule.php";
+$special_services_url = "./pages/services/special-services.php";
+$doctor_list_url = "./pages/services/doctor-list.php";
 
-$about_about_url = "../../pages/about/about.php";
-$about_structure_url = "../../pages/about/structure.php";
-$about_vision_url = "../../pages/about/vision-mission.php";
-$about_strategic_url = "../../pages/about/strategic-plan.php";
-$about_projects_url = "../../pages/about/projects-budget.php";
-$about_awards_url = "../../pages/about/awards-pride.php";
-$about_activities_url = "../../pages/about/activities.php";
-$about_reports_url = "../../pages/about/annual-reports.php";
-$about_contact_url = "../../pages/about/contact-us.php";
+$about_about_url = "./pages/about/about.php";
+$about_structure_url = "./pages/about/structure.php";
+$about_vision_url = "./pages/about/vision-mission.php";
+$about_strategic_url = "./pages/about/strategic-plan.php";
+$about_projects_url = "./pages/about/projects-budget.php";
+$about_awards_url = "./pages/about/awards-pride.php";
+$about_activities_url = "./pages/about/activities.php";
+$about_reports_url = "./pages/about/annual-reports.php";
+$about_contact_url = "./pages/about/contact-us.php";
 
-$medical_research_url = "../../pages/medical/research-technology.php";
-$medical_training_url = "../../pages/medical/training-education.php";
-$medical_rax_url = "../../pages/medical/rax-checkpoint.php";
-$medical_hosxp_structure_url = "../../pages/medical/hosxp-structure-adjustment-documents.php";
-$medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
+$medical_research_url = "./pages/medical/research-technology.php";
+$medical_training_url = "./pages/medical/training-education.php";
+$medical_rax_url = "./pages/medical/rax-checkpoint.php";
+$medical_hosxp_structure_url = "./pages/medical/hosxp-structure-adjustment-documents.php";
+$medical_hosxp_export_url = "./pages/medical/hosxp-2566-export-list.php";
+
+$doctors = [
+    [
+        'name' => 'ดร. ณัฐพล วงศ์สมบูรณ์',
+        'workplace' => 'โรงพยาบาลสุขภาพใจดี',
+        'position' => 'ผู้อำนวยการแพทย์',
+        'specialty' => 'โรคหัวใจและหลอดเลือด',
+        'profileUrl' => 'doctor_profile.php'
+    ],
+    // Add more doctors here
+    [
+        'name' => 'ดร. ประพจน์ สุขสมบูรณ์',
+        'workplace' => 'ศูนย์การแพทย์ชั้นนำ',
+        'position' => 'ศูนย์บริการโรคสมองและประสาท',
+        'specialty' => 'โรคสมองและประสาท',
+        'profileUrl' => 'doctor_profile.php'
+    ],
+    [
+        'name' => 'ดร. วิชัย ทองมี',
+        'workplace' => 'โรงพยาบาลพื้นที่',
+        'position' => 'หัวหน้าแผนกอายุรกรรม',
+        'specialty' => 'โรคเรื้อนในผู้สูงอายุ',
+        'profileUrl' => 'doctor_profile.php'
+    ],
+    [
+        'name' => 'ดร. สุรเดช รักษาอุปกรณ์',
+        'workplace' => 'ศูนย์การรักษาอุปกรณ์',
+        'position' => 'ผู้อำนวยการการแพทย์ผู้เชี่ยวชาญ',
+        'specialty' => 'โการศึกษาและการบำบัดอุปกรณ์บริเวณข้อ',
+        'profileUrl' => 'doctor_profile.php'
+    ],
+    [
+        'name' => 'ดร. อรรถพล สุขสุขสบาย',
+        'workplace' => 'ศูนย์การรักษาอุปกรณ์',
+        'position' => 'หัวหน้าแผนกกายภาพบำบัด',
+        'specialty' => 'การฟื้นฟูสมรรถภาพทางกาย',
+        'profileUr' => 'doctor_profile.php'
+    ],
+    [
+        'name' => 'ดร. ณรงค์ฤทธิ์ สุขสมบูรณ์',
+        'workplace' => 'โรงพยาบาลสุขภาพครอบครัว',
+        'position' => 'แพทย์ผู้เชี่ยวชาญด้านสุขภาพจิต',
+        'specialty' => 'การฟื้นฟูสมรรถภาพทางกาย',
+        'profileUrl' => 'doctor_profile.php'
+    ],
+];
+// ส่วนของการแสดงผลหน้า HTML
+
+
 ?>
 
 
@@ -262,38 +312,62 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
         }
     }
 
-    .table-sub {
-        background-color: white;
-        border: 1px solid #dee2e6;
-        /* เส้นขอบสีเทาอ่อน */
+    /* CSS for centering the title */
+    .title-container {
+        text-align: center;
+        /* Align text in the center */
+        margin-top: 50px;
+        /* Add margin space from the top */
+        color: #1E90FF;
     }
 
-    .table-sub td {
-        padding: 8px;
-        /* ปรับระยะห่างของเนื้อหาในเซลล์ */
+
+    /* Add custom CS
+
+    /* Add cust
+
+    /* Ad
+
+             
+
+    /* Add custom CSS for spacing between buttons */
+    .btn-spacing {
+        margin-left: 10px;
+        /* Adjust the value as needed */
     }
 
-    .table-sub td:first-child {
-        border-right: 1px solid #dee2e6;
-        /* เส้นขอบด้านขวาของเซลล์ที่อยู่ฝั่งซ้าย */
-    }
 
-    .table-sub td:last-child {
-        border-left: 1px solid #dee2e6;
-        /* เส้นขอบด้านซ้ายของเซลล์ที่อยู่ฝั่งขวา */
+    .card-ca {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* จัดเรียงข้อมูลในแนวตั้งตรงกลาง */
+        align-items: center;
+        /* จัดเรียงข้อมูลในแนวนอนตรงกลาง */
+        max-width: 400px;
+        /* กำหนดความกว้างสูงสุดของการ์ด */
+        max-height: 670px;
+        /* กำหนดความกว้างสูงสุดของการ์ด */
+        margin: 0 auto;
+        /* จัดการ์ดอยู่กลาง */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
     </style>
+
 
     <!-- Custom styles for this template -->
     <link href="./styles/aboutstyle.css" rel="stylesheet" />
 
 </head>
 
+
 <body>
 
     <header>
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="../../../index.php">
+            <a class="navbar-brand" href="index.php">
                 <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png"
                     width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
                 โรงพยาบาลสมเด็จพระยุพราชปัว
@@ -327,10 +401,9 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
                             <a class="dropdown-item" href="<?php echo $about_about_url; ?>">เกี่ยวกับ รพร.ปัว</a>
                             <a class="dropdown-item" href="<?php echo $about_structure_url; ?>">โครงสร้างผู้บริหาร</a>
                             <a class="dropdown-item" href="<?php echo $about_vision_url; ?>">วิสัยทัศน์ พันธกิจ</a>
-                            <a class="dropdown-item" href="<?php echo $about_strategic_url; ?>">แผนยุทธศาสตร์
-                                และตัวชี้วัด</a>
-                            <a class="dropdown-item" href="<?php echo $about_projects_url; ?>">แผนโครงการ
-                                และงบประมาณ</a>
+                            <a class="dropdown-item"
+                                href="<?php echo $about_strategic_url; ?>">แผนยุทธศาสตร์และตัวชี้วัด</a>
+                            <a class="dropdown-item" href="<?php echo $about_projects_url; ?>">แผนโครงการและงบประมาณ</a>
                             <a class="dropdown-item" href="<?php echo $about_awards_url; ?>">รางวัลและความภาคภูมิใจ</a>
                             <a class="dropdown-item" href="<?php echo $about_activities_url; ?>">ภาพกิจกรรม</a>
                             <a class="dropdown-item" href="<?php echo $about_reports_url; ?>">รายงานประจำปี</a>
@@ -348,8 +421,8 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
                             <a class="dropdown-item" href="<?php echo $medical_training_url; ?>">การอบรมการศึกษา</a>
                             <a class="dropdown-item" href="<?php echo $medical_rax_url; ?>">Rax Check Point</a>
                             <a class="dropdown-item"
-                                href="<?php echo $medical_hosxp_structure_url; ?>">เอกสารสำหรับปรับโครงสร้าง HOSXP
-                                2566</a>
+                                href="<?php echo $medical_hosxp_structure_url; ?>">เอกสารสำหรับปรับโครงสร้าง
+                                HOSXP2566</a>
                             <a class="dropdown-item" href="<?php echo $medical_hosxp_export_url; ?>">รายการตามหมวด
                                 EXPORT
                                 HOSXP 2566</a>
@@ -360,143 +433,27 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
             </div>
         </nav>
     </header>
-
-
-
-
-    <img src="https://placehold.co/1536x600" class="img-fluid" alt="...">
     <br>
 
-    <main>
-        <div class="container"><br>
-            <h5>ราบละเอียดตัวชี้วัด</h5>
-            <table class="table table-bordered table-light">
-                <thead>
-                    <tr>
-                        <th scope="col">มิติ</th>
-                        <th scope="col">กำหนด</th>
-                        <th scope="col">ประเด็นยุทธศาสตร์</th>
-                        <th scope="col">เป้าหมาย</th>
-                        <th scope="col">หน่วยนับ</th>
-                        <th scope="col">ผู้รับผิดชอบ</th>
-                        <th scope="col">เกณฑ์การให้คะแนน</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row"></th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <!-- เพิ่มตารางย่อย -->
-                        <td>
-                            <table class="table table-bordered table-sub">
-                                <!-- เพิ่มคลาส table-sub -->
-                                <tbody>
-                                    <tr>
-                                        <td>Subcell 1</td>
-                                        <td>Subcell 2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Subcell 3</td>
-                                        <td>Subcell 4</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <!-- เพิ่มตารางเกณฑ์การให้คะแนน -->
-                        <td>
-                            <table class="table table-bordered table-sub">
-                                <!-- เพิ่มคลาส table-sub -->
-                                <tbody>
-                                    <tr>
-                                        <td>Criterion 1</td>
-                                        <td>Score 1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Criterion 2</td>
-                                        <td>Score 2</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- เพิ่มแถวอื่นๆ ด้วยคล้ายกัน -->
-                </tbody>
-
-                <tbody>
-                    <tr>
-                        <th scope="row"></th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <!-- เพิ่มตารางย่อย -->
-                        <td>
-                            <table class="table table-bordered table-sub">
-                                <!-- เพิ่มคลาส table-sub -->
-                                <tbody>
-                                    <tr>
-                                        <td>Subcell 1</td>
-                                        <td>Subcell 2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Subcell 3</td>
-                                        <td>Subcell 4</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <!-- เพิ่มตารางเกณฑ์การให้คะแนน -->
-                        <td>
-                            <table class="table table-bordered table-sub">
-                                <!-- เพิ่มคลาส table-sub -->
-                                <tbody>
-                                    <tr>
-                                        <td>Criterion 1</td>
-                                        <td>Score 1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Criterion 2</td>
-                                        <td>Score 2</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- เพิ่มแถวอื่นๆ ด้วยคล้ายกัน -->
-                </tbody>
-            </table>
-
-
-
+    <body>
+        <!-- ส่วนของเนื้อหาหน้าเว็บ -->
+        <div class="container">
+            <!-- หน้าแสดงโปรไฟล์ของแพทย์ -->
+            <div class="card-ca">
+                <div class="card">
+                    <img src="cat.png" class="card-img-top" alt="Doctor Image">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">ดร. ณัฐพล วงศ์สมบูรณ์</h5>
+                    </div>
+                </div>
+                <!-- เพิ่มโปรไฟล์ของแพทย์อื่นๆ ตามต้องการ -->
+            </div>
         </div>
-    </main>
 
+        <!-- ส่วนของสคริปต์ JavaScript (หากต้องการ) -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </body>
+    <br>
 
 
 
@@ -525,8 +482,8 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="../../../index.php" class="custom-link">หน้าเเรก</a> <i
-                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="/index.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
                                 <li><a href="<?php echo $services_step_url; ?>"
                                         class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right"
                                         style="font-size: 14px;"></i></li>
@@ -583,11 +540,6 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-
-
-
 
 
 </body>

@@ -286,7 +286,7 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 
     <header>
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="../../../index.php">
                 <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
                 โรงพยาบาลสมเด็จพระยุพราชปัว
             </a>
@@ -359,7 +359,7 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
     </div>
     <br>
 
-    <body>
+    <div class="container">
         <p>จากจำนวนผู้ติดเชื้อโควิด-19 ที่เพิ่มมากขึ้นในการระบาดระลอกที่ 3 ในประเทศไทย
             ทำให้ต้องมีการเพิ่มมาตรการรองรับการดูแลผู้ป่วยในหลากหลายแนวทาง
             โดยเฉพาะการเกิดขึ้นของโรงพยาบาลสนาม รวมถึง Hospitel สอวช.
@@ -397,7 +397,7 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
             ไม่มีเอกซเรย์ที่เปลี่ยนแปลง จึงจะสามารถย้ายเข้ามาได้
             และในกรณีที่ผู้ป่วยมีอาการมากขึ้นก็จะย้ายไปยังโรงพยาบาลหลักได้ทันที
         </p>
-    </body>
+    </div>
     <br>
 
 
@@ -428,24 +428,26 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="about.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="services.php" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="/index.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $services_step_url; ?>" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $doctor_schedule_url; ?>" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $special_services_url; ?>" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $doctor_list_url; ?>" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_about_url; ?>" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_structure_url; ?>" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="gallery.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_vision_url; ?>" class="custom-link">วิสัยทัศน์
+                                        พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $medical_training_url; ?>" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_projects_url; ?>" class="custom-link">แผนโครงการ
+                                        และงบประมาณ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_awards_url; ?>" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_activities_url; ?>" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                     </div>
@@ -462,7 +464,6 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
             <p>โรงพยาบาลสมเด็จพระยุพราชปัว Copyright © 2019. All rights reserved.</p>
         </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

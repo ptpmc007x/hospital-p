@@ -35,150 +35,154 @@ $medical_hosxp_export_url = "src/pages/medical/hosxp-2566-export-list.php";
     <!-- Link เข้ารหัส CSS ของ Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <meta name="theme-color" content="#563d7c" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- <link rel="stylesheet" href="footerstyle.css"> -->
     <!-- CSS สำหรับการลิงค์ -->
 
     <style>
-        /* footerstyle.css */
+    /* footerstyle.css */
 
-        .footer {
-            background-color: #5BA1E1;
-            padding: 50px 0;
-            color: white;
-        }
+    .footer {
+        background-color: #5BA1E1;
+        padding: 50px 0;
+        color: white;
+    }
 
-        .link-list li {
-            margin-bottom: 10px;
-        }
+    .link-list li {
+        margin-bottom: 10px;
+    }
 
-        .link-list li a {
-            color: white;
-            text-decoration: none;
-        }
+    .link-list li a {
+        color: white;
+        text-decoration: none;
+    }
 
-        .link-list li a:hover {
-            color: #0056b3;
-        }
+    .link-list li a:hover {
+        color: #0056b3;
+    }
 
-        .map-img {
-            text-align: right;
-        }
+    .map-img {
+        text-align: right;
+    }
 
-        /* .copy {
+    /* .copy {
         background-color: #343a40;
         color: #f8f9fa;
         padding: 15px 0;
     } */
 
-        .social-media-icons {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
+    .social-media-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 
-        .social-media-icon {
-            margin: 0 10px;
-            font-size: 24px;
-            color: #343a40;
-            transition: color 0.3s;
-        }
+    .social-media-icon {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #343a40;
+        transition: color 0.3s;
+    }
 
-        .social-media-icon:hover {
-            color: #007bff;
-        }
+    .social-media-icon:hover {
+        color: #007bff;
+    }
 
 
 
-        /*Nav  */
+    /*Nav  */
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        /* margin-right: auto; */
+        /* ชิดซ้าย */
+    }
+
+    /* ปรับระยะห่างของโลโก้จากขอบขวา */
+    .navbar-brand {
+        margin-right: 20px;
+
+    }
+
+
+    .navbar-brand {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+
+
+
+
+    @media (max-width: 768px) {
         .navbar-brand {
-            display: flex;
-            align-items: center;
-            /* margin-right: auto; */
-            /* ชิดซ้าย */
+            font-size: 14px;
+            /* ปรับขนาดตัวอักษรเมื่อหน้าจอมีขนาดเล็กกว่า 768px */
         }
+    }
 
-        /* ปรับระยะห่างของโลโก้จากขอบขวา */
-        .navbar-brand {
-            margin-right: 20px;
-
+    @media (max-width: 576px) {
+        .navbar-brand img {
+            width: 25px;
+            /* ปรับขนาดของโลโก้เมื่อหน้าจอมีขนาดเล็กกว่า 576px */
+            height: 25px;
         }
+    }
 
+    .social-media-icons {
+        display: flex;
+        align-items: center;
+        /* margin-left: auto; */
+        /* ชิดขวา */
+    }
 
-        .navbar-brand {
-            white-space: normal;
-            word-wrap: break-word;
+    .social-media-icon {
+        margin-right: 10px;
+        /* ระยะห่างระหว่างไอคอน */
+    }
+
+    /* ปรับขนาดข้อความของ List Items ใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+    @media (max-width: 768px) {
+        .link-list li {
+            font-size: 14px;
         }
+    }
 
-
-
-
-
-        @media (max-width: 768px) {
-            .navbar-brand {
-                font-size: 14px;
-                /* ปรับขนาดตัวอักษรเมื่อหน้าจอมีขนาดเล็กกว่า 768px */
-            }
-        }
-
-        @media (max-width: 576px) {
-            .navbar-brand img {
-                width: 25px;
-                /* ปรับขนาดของโลโก้เมื่อหน้าจอมีขนาดเล็กกว่า 576px */
-                height: 25px;
-            }
-        }
-
-        .social-media-icons {
-            display: flex;
-            align-items: center;
-            /* margin-left: auto; */
-            /* ชิดขวา */
-        }
-
-        .social-media-icon {
-            margin-right: 10px;
-            /* ระยะห่างระหว่างไอคอน */
-        }
-
-        /* ปรับขนาดข้อความของ List Items ใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-        @media (max-width: 768px) {
-            .link-list li {
-                font-size: 14px;
-            }
-        }
-
-        /* ปรับการจัดวางของข้อมูลใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-        @media (max-width: 576px) {
-            .map-img {
-                text-align: center;
-            }
-        }
-
-
-        /* ปรับขนาดของ Social media icons ในขนาดหน้าจอที่เล็กกว่า */
-        .social-media-icons {
+    /* ปรับการจัดวางของข้อมูลใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+    @media (max-width: 576px) {
+        .map-img {
             text-align: center;
         }
+    }
 
-        .social-media-icon {
-            display: inline-block;
-            margin: 0 10px;
-        }
 
-        /* ปรับการจัดวางของข้อความใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-        @media (max-width: 768px) {
-            .col-md-6 {
-                text-align: center;
-            }
+    /* ปรับขนาดของ Social media icons ในขนาดหน้าจอที่เล็กกว่า */
+    .social-media-icons {
+        text-align: center;
+    }
+
+    .social-media-icon {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    /* ปรับการจัดวางของข้อความใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+    @media (max-width: 768px) {
+        .col-md-6 {
+            text-align: center;
         }
+    }
     </style>
 
 </head>
 
 <body>
+
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -191,7 +195,8 @@ $medical_hosxp_export_url = "src/pages/medical/hosxp-2566-export-list.php";
 
                     </div>
                     <a class="navbar-brand" href="index.php">
-                        <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
+                        <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png"
+                            width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
                         Pua Crown Prince Hospital
                         โรงพยาบาลสมเด็จพระยุพราชปัว
                     </a>
@@ -203,26 +208,44 @@ $medical_hosxp_export_url = "src/pages/medical/hosxp-2566-export-list.php";
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
-                                <li><a href="/index.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $services_step_url; ?>" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $doctor_schedule_url; ?>" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $special_services_url; ?>" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $doctor_list_url; ?>" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $about_about_url; ?>" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $about_structure_url; ?>" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="/index.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $services_step_url; ?>"
+                                        class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $doctor_schedule_url; ?>"
+                                        class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $special_services_url; ?>" class="custom-link">บริการเด่น</a> <i
+                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $doctor_list_url; ?>" class="custom-link">รายชื่อเเพทย์</a> <i
+                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_about_url; ?>" class="custom-link">ความเป็นมา</a> <i
+                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_structure_url; ?>"
+                                        class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled link-list">
                                 <li><a href="<?php echo $about_vision_url; ?>" class="custom-link">วิสัยทัศน์
                                         พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $medical_training_url; ?>" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">รายงานประจำปี</a> <i
+                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $medical_training_url; ?>"
+                                        class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
                                 <li><a href="<?php echo $about_projects_url; ?>" class="custom-link">แผนโครงการ
                                         และงบประมาณ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $about_awards_url; ?>" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $about_activities_url; ?>" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="<?php echo $about_reports_url; ?>" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_awards_url; ?>"
+                                        class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_activities_url; ?>" class="custom-link">ภาพกิจกรรม</a> <i
+                                        class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                <li><a href="<?php echo $about_reports_url; ?>"
+                                        class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right"
+                                        style="font-size: 14px;"></i></li>
                             </ul>
                         </div>
                     </div>

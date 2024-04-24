@@ -39,15 +39,17 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <meta name="theme-color" content="#563d7c" />
 
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap");
 
 
 
-        /* .navbar {
+    /* .navbar {
         background-color: #f8f9fa;
         padding-top: 12px;
         padding-bottom: 12px;
@@ -56,41 +58,41 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 
     } */
 
-        .navbar-brand {
-            color: #0056b3 !important;
-            display: flex;
-            align-items: center;
-            font-family: "IBM Plex Sans Thai", sans-serif;
-            /* เลือกใช้ฟอนต์ */
-        }
+    .navbar-brand {
+        color: #0056b3 !important;
+        display: flex;
+        align-items: center;
+        font-family: "IBM Plex Sans Thai", sans-serif;
+        /* เลือกใช้ฟอนต์ */
+    }
 
-        .navbar-brand img {
-            width: 50px;
-            height: auto;
-            margin-right: 10px;
-            margin-left: 20px;
-            transition: transform 0.3s;
-            cursor: pointer;
-        }
+    .navbar-brand img {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 20px;
+        transition: transform 0.3s;
+        cursor: pointer;
+    }
 
-        .navbar-brand:hover {
-            color: #007bff;
-        }
+    .navbar-brand:hover {
+        color: #007bff;
+    }
 
-        .navbar-nav .nav-link:hover {
-            color: #007bff;
-            font-size: 18px;
-            margin-right: 20px;
-            margin-left: 20px;
-            font-family: "IBM Plex Sans Thai", sans-serif;
-            /* เลือกใช้ฟอนต์ */
-        }
+    .navbar-nav .nav-link:hover {
+        color: #007bff;
+        font-size: 18px;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: "IBM Plex Sans Thai", sans-serif;
+        /* เลือกใช้ฟอนต์ */
+    }
 
-        .navbar-nav .nav-link {
-            color: #0056b3 !important;
-        }
+    .navbar-nav .nav-link {
+        color: #0056b3 !important;
+    }
 
-        /* 
+    /* 
         .btn-dark {
             background-color: #343a40;
             border-color: #343a40;
@@ -98,14 +100,14 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
             font-weight: bold;
         } */
 
-        /* ระยะห่างระหว่างเมนู */
-        .nav-item {
-            margin-left: 25px;
+    /* ระยะห่างระหว่างเมนู */
+    .nav-item {
+        margin-left: 25px;
 
-        }
+    }
 
-        /* ให้ Navbar อยู่ด้านหน้าสุด */
-        /* .navbar {
+    /* ให้ Navbar อยู่ด้านหน้าสุด */
+    /* .navbar {
         position: fixed;
         width: 100%;
         top: 0;
@@ -114,160 +116,231 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 
     } */
 
-        /* ซ่อน Navbar ไปด้านบน */
-        /* .navbar-hidden {
+    /* ซ่อน Navbar ไปด้านบน */
+    /* .navbar-hidden {
         top: -100px;
 
     } */
 
 
 
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(52, 58, 64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-        }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(52, 58, 64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
 
 
-        /* footerstyle */
+    /* footerstyle */
 
-        .footer {
-            background-color: #5BA1E1;
-            padding: 50px 0;
-            color: white;
-        }
+    .footer {
+        background-color: #5BA1E1;
+        padding: 50px 0;
+        color: white;
+    }
 
-        .link-list li {
-            margin-bottom: 10px;
-        }
+    .link-list li {
+        margin-bottom: 10px;
+    }
 
-        .link-list li a {
-            color: white;
-            text-decoration: none;
-        }
+    .link-list li a {
+        color: white;
+        text-decoration: none;
+    }
 
-        .link-list li a:hover {
-            color: #0056b3;
-        }
+    .link-list li a:hover {
+        color: #0056b3;
+    }
 
-        .map-img {
-            text-align: right;
-        }
+    .map-img {
+        text-align: right;
+    }
 
-        /* .copy {
+    /* .copy {
         background-color: #343a40;
         color: #f8f9fa;
         padding: 15px 0;
     } */
 
-        .social-media-icons {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
+    .social-media-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 
-        .social-media-icon {
-            margin: 0 10px;
-            font-size: 24px;
-            color: #343a40;
-            transition: color 0.3s;
-        }
+    .social-media-icon {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #343a40;
+        transition: color 0.3s;
+    }
 
-        .social-media-icon:hover {
-            color: #007bff;
-        }
+    .social-media-icon:hover {
+        color: #007bff;
+    }
 
 
 
-        /*Nav  */
+    /*Nav  */
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        /* margin-right: auto; */
+        /* ชิดซ้าย */
+    }
+
+    /* ปรับระยะห่างของโลโก้จากขอบขวา */
+    .navbar-brand {
+        margin-right: 20px;
+
+    }
+
+
+    .navbar-brand {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+
+
+
+
+    @media (max-width: 768px) {
         .navbar-brand {
-            display: flex;
-            align-items: center;
-            /* margin-right: auto; */
-            /* ชิดซ้าย */
+            font-size: 14px;
+            /* ปรับขนาดตัวอักษรเมื่อหน้าจอมีขนาดเล็กกว่า 768px */
         }
+    }
 
-        /* ปรับระยะห่างของโลโก้จากขอบขวา */
-        .navbar-brand {
-            margin-right: 20px;
-
+    @media (max-width: 576px) {
+        .navbar-brand img {
+            width: 25px;
+            /* ปรับขนาดของโลโก้เมื่อหน้าจอมีขนาดเล็กกว่า 576px */
+            height: 25px;
         }
+    }
 
+    .social-media-icons {
+        display: flex;
+        align-items: center;
+        /* margin-left: auto; */
+        /* ชิดขวา */
+    }
 
-        .navbar-brand {
-            white-space: normal;
-            word-wrap: break-word;
+    .social-media-icon {
+        margin-right: 10px;
+        /* ระยะห่างระหว่างไอคอน */
+    }
+
+    /* ปรับขนาดข้อความของ List Items ใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+    @media (max-width: 768px) {
+        .link-list li {
+            font-size: 14px;
         }
+    }
 
-
-
-
-
-        @media (max-width: 768px) {
-            .navbar-brand {
-                font-size: 14px;
-                /* ปรับขนาดตัวอักษรเมื่อหน้าจอมีขนาดเล็กกว่า 768px */
-            }
-        }
-
-        @media (max-width: 576px) {
-            .navbar-brand img {
-                width: 25px;
-                /* ปรับขนาดของโลโก้เมื่อหน้าจอมีขนาดเล็กกว่า 576px */
-                height: 25px;
-            }
-        }
-
-        .social-media-icons {
-            display: flex;
-            align-items: center;
-            /* margin-left: auto; */
-            /* ชิดขวา */
-        }
-
-        .social-media-icon {
-            margin-right: 10px;
-            /* ระยะห่างระหว่างไอคอน */
-        }
-
-        /* ปรับขนาดข้อความของ List Items ใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-        @media (max-width: 768px) {
-            .link-list li {
-                font-size: 14px;
-            }
-        }
-
-        /* ปรับการจัดวางของข้อมูลใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-        @media (max-width: 576px) {
-            .map-img {
-                text-align: center;
-            }
-        }
-
-
-        /* ปรับขนาดของ Social media icons ในขนาดหน้าจอที่เล็กกว่า */
-        .social-media-icons {
+    /* ปรับการจัดวางของข้อมูลใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+    @media (max-width: 576px) {
+        .map-img {
             text-align: center;
         }
+    }
 
-        .social-media-icon {
-            display: inline-block;
-            margin: 0 10px;
-        }
 
-        /* ปรับการจัดวางของข้อความใน Footer ในขนาดหน้าจอที่เล็กกว่า */
-        @media (max-width: 768px) {
-            .col-md-6 {
-                text-align: center;
-            }
-        }
+    /* ปรับขนาดของ Social media icons ในขนาดหน้าจอที่เล็กกว่า */
+    .social-media-icons {
+        text-align: center;
+    }
 
-        /* CSS for centering the title */
-        .title-container {
+    .social-media-icon {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    /* ปรับการจัดวางของข้อความใน Footer ในขนาดหน้าจอที่เล็กกว่า */
+    @media (max-width: 768px) {
+        .col-md-6 {
             text-align: center;
-            /* Align text in the center */
-            margin-top: 50px;
-            /* Add margin space from the top */
-            color: #1E90FF;
         }
+    }
+
+    /* CSS for centering the title */
+    .title-container {
+        text-align: center;
+        /* Align text in the center */
+        margin-top: 50px;
+        /* Add margin space from the top */
+        color: #1E90FF;
+    }
+
+
+    /* Add custom CS
+
+    /* Add cust
+    /* Ad
+    /* Add custom CSS for spacing between buttons */
+    .btn-spacing {
+        margin-left: 10px;
+        /* Adjust the value as needed */
+    }
+
+    .card {
+        transition: transform 0.3s;
+
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+
+    /*ปรับขนานรูปที่แสดงตอนค้นหา*/
+
+    .cardDeck {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 20px;
+    }
+
+    /* ขอบกรอบรูป */
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        max-width: 330px;
+        /* กำหนดความกว้างสูงสุดของการ์ด */
+        margin: 0 auto;
+        /* จัดการ์ดอยู่กลาง */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+
+    }
+
+    /*ขนานรูปในกรอบ*/
+
+    .card-img-top {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .card-ca {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* จัดเรียงข้อมูลในแนวตั้งตรงกลาง */
+        align-items: center;
+        /* จัดเรียงข้อมูลในแนวนอนตรงกลาง */
+        max-width: 600px;
+        /* กำหนดความกว้างสูงสุดของการ์ด */
+        max-height: 570px;
+        /* กำหนดความกว้างสูงสุดของการ์ด */
+        margin: 0 auto;
+        /* จัดการ์ดอยู่กลาง */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
     </style>
 
 
@@ -281,29 +354,35 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 
     <header>
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="index.php">
-                <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
+            <a class="navbar-brand" href="../../../index.php">
+                <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png"
+                    width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
                 โรงพยาบาลสมเด็จพระยุพราชปัว
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             บริการของเรา
                         </a>
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <a class="dropdown-item" href="<?php echo $services_step_url; ?>">ขั้นตอนการเข้ารับการรักษา</a>
+                            <a class="dropdown-item"
+                                href="<?php echo $services_step_url; ?>">ขั้นตอนการเข้ารับการรักษา</a>
                             <a class="dropdown-item" href="<?php echo $doctor_schedule_url; ?>">ตารางแพทย์ออกตรวจ</a>
                             <a class="dropdown-item" href="<?php echo $special_services_url; ?>">Special Services</a>
                             <a class="dropdown-item" href="<?php echo $doctor_list_url; ?>">รายชื่อแพทย์</a>
+                            <a href="/adminlte_php_2/login.php" class="dropdown-item">เข้าสู่หน้า Admin</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             เกี่ยวกับ รพร.ปัว
                         </a>
                         <div class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -321,14 +400,17 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="MedicalDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="MedicalDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             สำหรับบุคลากรทางการแพทย์
                         </a>
                         <div class="dropdown-menu" aria-labelledby="MedicalDropdown">
-                            <a class="dropdown-item" href="<?php echo $medical_research_url; ?>">วิจัยและเทคโนโลยีด้านการแพทย์</a>
+                            <a class="dropdown-item"
+                                href="<?php echo $medical_research_url; ?>">วิจัยและเทคโนโลยีด้านการแพทย์</a>
                             <a class="dropdown-item" href="<?php echo $medical_training_url; ?>">การอบรมการศึกษา</a>
                             <a class="dropdown-item" href="<?php echo $medical_rax_url; ?>">Rax Check Point</a>
-                            <a class="dropdown-item" href="<?php echo $medical_hosxp_structure_url; ?>">เอกสารสำหรับปรับโครงสร้าง HOSXP
+                            <a class="dropdown-item"
+                                href="<?php echo $medical_hosxp_structure_url; ?>">เอกสารสำหรับปรับโครงสร้าง HOSXP
                                 2566</a>
                             <a class="dropdown-item" href="<?php echo $medical_hosxp_export_url; ?>">รายการตามหมวด
                                 EXPORT
@@ -343,78 +425,313 @@ $medical_hosxp_export_url = "../../pages/medical/hosxp-2566-export-list.php";
 
 
 
-
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="social-media-icons">
-                        <a href="#" class="social-media-icon"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-media-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-media-icon"><i class="fab fa-line"></i></a>
-                        <!-- <a href="#" class="social-media-icon"><i class="bi bi-facebook"></i></a> -->
-
-                    </div>
-                    <a class="navbar-brand" href="index.php">
-                        <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
-                        Pua Crown Prince Hospital
-                        โรงพยาบาลสมเด็จพระยุพราชปัว
-                    </a>
-                    <p> <br>
-                        70 หมู่ 6 ถนนปัว-น้ำยาว ตำบลวรนคร อำเภอปัว จังหวัดน่าน 55120</p>
+    <div class="container">
+        <form class="form-inline mt-2 mt-md-0 ml-auto" id="searchForm">
+            <input class="form-control mr-sm-2" type="text" id="searchInput" placeholder="Search Doctors"
+                aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="button" id="searchButton">Search</button>
+            <br>
+            <div class="container">
+                <div class="card-deck" id="cardDeck">
+                    <br>
                 </div>
-                <div class="col-md-6 col-sm-12 map-img">
-                    <!-- <h2>ข้อมูลการติดต่อ</h2> -->
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="list-unstyled link-list">
-                                <li><a href="about.php" class="custom-link">หน้าเเรก</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="services.php" class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="logins.php" class="custom-link">โครงสร้างผู้บริหาร</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                            </ul>
+                <br>
+                <div class="container">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="cat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ดร. ณัฐพล วงศ์สมบูรณ์</h5>
+                                <p class="card-text">ตึกที่ทำงาน: โรงพยาบาลสุขภาพใจดี</p>
+                                <p class="card-text">ตำแหน่ง: ผู้อำนวยการแพทย์</p>
+                                <p class="card-text">รักษาเฉพาะทาง: โรคหัวใจและหลอดเลือด</p>
+                                <a href="doctor_profile.php" class="btn btn-primary"> Profile</a>
+                                <!-- Replace doctor_profile.php with the actual URL -->
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <ul class="list-unstyled link-list">
-                                <li><a href="gallery.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">วิสัยทัศน์ พันธกิจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                                <li><a href="contact.php" class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i class="fa fa-angle-right" style="font-size: 14px;"></i></li>
-                            </ul>
+                        <div class="card">
+                            <img src="cat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ดร. ประพจน์ สุขสมบูรณ์</h5>
+                                <p class="card-text">ตึกที่ทำงาน: ศูนย์การแพทย์ชั้นนำ</p>
+                                <p class="card-text">ตำแหน่ง: ศูนย์บริการโรคสมองและประสาท</p>
+                                <p class="card-text">รักษาเฉพาะทาง: โรคสมองและประสาท</p>
+                                <a href="doctor_profile.php" class="btn btn-primary"> Profile</a>
+                                <!-- Replace doctor_profile.php with the actual URL -->
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="cat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ดร. วิชัย ทองมี</h5>
+                                <p class="card-text">ตึกที่ทำงาน: โรงพยาบาลพื้นที่</p>
+                                <p class="card-text">ตำแหน่ง: หัวหน้าแผนกอายุรกรรม</p>
+                                <p class="card-text">รักษาเฉพาะทาง: โรคเรื้อนในผู้สูงอายุ</p>
+                                <a href="doctor_profile.php" class="btn btn-primary"> Profile</a>
+                                <!-- Replace doctor_profile.php with the actual URL -->
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="container">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="cat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ดร. สุรเดช รักษาอุปกรณ์</h5>
+                                <p class="card-text">ตึกที่ทำงาน: ศูนย์การรักษาอุปกรณ์</p>
+                                <p class="card-text">ตำแหน่ง: ผู้อำนวยการการแพทย์ผู้เชี่ยวชาญ</p>
+                                <p class="card-text">รักษาเฉพาะทาง: การศึกษาและการบำบัดอุปกรณ์บริเวณข้อ</p>
+                                <a href="doctor_profile.php" class="btn btn-primary"> Profile</a>
+                                <!-- Replace doctor_profile.php with the actual URL -->
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="cat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ดร. อรรถพล สุขสุขสบาย</h5>
+                                <p class="card-text">ตึกที่ทำงาน: ศูนย์การแพทย์กลาง</p>
+                                <p class="card-text">ตำแหน่ง: หัวหน้าแผนกกายภาพบำบัด</p>
+                                <p class="card-text">รักษาเฉพาะทาง: การฟื้นฟูสมรรถภาพทางกาย</p>
+                                <a href="doctor_profile.php" class="btn btn-primary"> Profile</a>
+                                <!-- Replace doctor_profile.php with the actual URL -->
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="cat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ดร. ณรงค์ฤทธิ์ สุขสมบูรณ์</h5>
+                                <p class="card-text">ตึกที่ทำงาน: โรงพยาบาลสุขภาพครอบครัว</p>
+                                <p class="card-text">ตำแหน่ง: แพทย์ผู้เชี่ยวชาญด้านสุขภาพจิต</p>
+                                <p class="card-text">รักษาเฉพาะทาง: การฟื้นฟูสมรรถภาพทางกาย</p>
+                                <a href="doctor_profile.php" class="btn btn-primary"> Profile</a>
+                                <!-- Replace doctor_profile.php with the actual URL -->
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </footer>
+                <br>
 
 
 
-    <div class="copy text-center py-3 bg-primary text-white">
-        <div class="container">
-            <p>โรงพยาบาลสมเด็จพระยุพราชปัว Copyright © 2019. All rights reserved.</p>
-        </div>
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="social-media-icons">
+                                    <a href="#" class="social-media-icon"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" class="social-media-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-media-icon"><i class="fab fa-line"></i></a>
+                                    <!-- <a href="#" class="social-media-icon"><i class="bi bi-facebook"></i></a> -->
+
+                                </div>
+                                <a class="navbar-brand" href="index.php">
+                                    <img src="http://www.puahospital.go.th/wp-content/uploads/2019/11/cropped-loogo-600x745-242x300.png"
+                                        width="30" height="30" class="d-inline-block align-center" alt=""
+                                        loading="lazy">
+                                    Pua Crown Prince Hospital
+                                    โรงพยาบาลสมเด็จพระยุพราชปัว
+                                </a>
+                                <p> <br>
+                                    70 หมู่ 6 ถนนปัว-น้ำยาว ตำบลวรนคร อำเภอปัว จังหวัดน่าน 55120</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12 map-img">
+                                <!-- <h2>ข้อมูลการติดต่อ</h2> -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled link-list">
+                                            <li><a href="../../index.php" class="custom-link">หน้าเเรก</a> <i
+                                                    class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $services_step_url; ?>"
+                                                    class="custom-link">ขั้นตอนการเข้ารับการรักษา</a> <i
+                                                    class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $doctor_schedule_url; ?>"
+                                                    class="custom-link">ตารางเเพทย์ออกตรวจ</a> <i
+                                                    class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $special_services_url; ?>"
+                                                    class="custom-link">บริการเด่น</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $doctor_list_url; ?>"
+                                                    class="custom-link">รายชื่อเเพทย์</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_about_url; ?>"
+                                                    class="custom-link">ความเป็นมา</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_structure_url; ?>"
+                                                    class="custom-link">โครงสร้างผู้บริหาร</a> <i
+                                                    class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled link-list">
+                                            <li><a href="<?php echo $about_vision_url; ?>"
+                                                    class="custom-link">วิสัยทัศน์
+                                                    พันธกิจ</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_reports_url; ?>"
+                                                    class="custom-link">รายงานประจำปี</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $medical_training_url; ?>"
+                                                    class="custom-link">การอบรมการศึกษา</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_projects_url; ?>"
+                                                    class="custom-link">แผนโครงการ
+                                                    และงบประมาณ</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_awards_url; ?>"
+                                                    class="custom-link">รางวัลเเละความภาคภูมิใจ</a> <i
+                                                    class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_activities_url; ?>"
+                                                    class="custom-link">ภาพกิจกรรม</a> <i class="fa fa-angle-right"
+                                                    style="font-size: 14px;"></i></li>
+                                            <li><a href="<?php echo $about_reports_url; ?>"
+                                                    class="custom-link">ติดต่อเราข้อเสนอเเนะ</a> <i
+                                                    class="fa fa-angle-right" style="font-size: 14px;"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </footer>
+
+
+
+                <div class="copy text-center py-3 bg-primary text-white">
+                    <div class="container">
+                        <p>โรงพยาบาลสมเด็จพระยุพราชปัว Copyright © 2019. All rights reserved.</p>
+                    </div>
+                </div>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </body>
 
 
 </html>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchForm = document.getElementById('searchForm');
+    const searchInput = document.getElementById('searchInput');
+    const cardDeck = document.getElementById('cardDeck');
+
+    // Mock data of doctors
+    const doctors = [{
+            name: 'ดร. ณัฐพล วงศ์สมบูรณ์',
+            workplace: 'โรงพยาบาลสุขภาพใจดี',
+            position: 'ผู้อำนวยการแพทย์',
+            specialty: 'โรคหัวใจและหลอดเลือด',
+            profileUrl: 'doctor_profile.php'
+        },
+        // Add more doctors here
+        {
+            name: 'ดร. ประพจน์ สุขสมบูรณ์',
+            workplace: 'ศูนย์การแพทย์ชั้นนำ',
+            position: 'ศูนย์บริการโรคสมองและประสาท',
+            specialty: 'โรคสมองและประสาท',
+            profileUrl: 'doctor_profile.php'
+        },
+        {
+            name: 'ดร. วิชัย ทองมี',
+            workplace: 'โรงพยาบาลพื้นที่',
+            position: 'หัวหน้าแผนกอายุรกรรม',
+            specialty: 'โรคเรื้อนในผู้สูงอายุ',
+            profileUrl: 'doctor_profile.php'
+        },
+        {
+            name: 'ดร. สุรเดช รักษาอุปกรณ์',
+            workplace: 'ศูนย์การรักษาอุปกรณ์',
+            position: 'ผู้อำนวยการการแพทย์ผู้เชี่ยวชาญ',
+            specialty: 'โการศึกษาและการบำบัดอุปกรณ์บริเวณข้อ',
+            profileUrl: 'doctor_profile.php'
+        },
+        {
+            name: 'ดร. อรรถพล สุขสุขสบาย',
+            workplace: 'ศูนย์การรักษาอุปกรณ์',
+            position: 'หัวหน้าแผนกกายภาพบำบัด',
+            specialty: 'การฟื้นฟูสมรรถภาพทางกาย',
+            profileUrl: 'doctor_profile.php'
+        },
+        {
+            name: 'ดร. ณรงค์ฤทธิ์ สุขสมบูรณ์',
+            workplace: 'โรงพยาบาลสุขภาพครอบครัว',
+            position: 'แพทย์ผู้เชี่ยวชาญด้านสุขภาพจิต',
+            specialty: 'การฟื้นฟูสมรรถภาพทางกาย',
+            profileUrl: 'doctor_profile.php'
+        },
+    ];
+
+    function renderDoctorCard(doctor) {
+        return `
+            <div class="card-ca">
+                <div class="card">
+                    <img src="cat.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">${doctor.name}</h5>
+                        <p class="card-text">ตึกที่ทำงาน: ${doctor.workplace}</p>
+                        <p class="card-text">ตำแหน่ง: ${doctor.position}</p>
+                        <p class="card-text">รักษาเฉพาะทาง: ${doctor.specialty}</p>
+                        <a href="${doctor.profileUrl}" class="btn btn-primary">Profile</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            `;
+    }
+
+    function filterDoctors(query) {
+        const filteredDoctors = doctors.filter(doctor =>
+            doctor.name.toLowerCase().includes(query.toLowerCase())
+        );
+        return filteredDoctors;
+    }
+
+    function displayFilteredDoctors(filteredDoctors) {
+        const html = filteredDoctors.map(doctor => renderDoctorCard(doctor)).join('');
+        cardDeck.innerHTML = html;
+    }
+
+    searchButton.addEventListener('click', function() {
+        const query = searchInput.value.trim();
+        const filteredDoctors = filterDoctors(query);
+        displayFilteredDoctors(filteredDoctors);
+    });
+});
+</script>
